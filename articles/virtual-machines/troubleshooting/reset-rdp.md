@@ -36,6 +36,8 @@ First, sign in to the [Azure portal](https://portal.azure.com) and then select *
 
 2. Select **Reset password**, enter a username and a password, and then select **Update**. 
 
+ ![Reset the user credentials in the Azure portal](./media/troubleshoot-rdp-connection/reset-password.png)
+
 3. Try connecting to your VM again.
 
 ### **Reset the Remote Desktop Services configuration**
@@ -45,6 +47,8 @@ This process will enable Remote Desktop service in the VM, and create a firewall
 1. Select your Windows VM and then select **Reset password** under **Support + Troubleshooting**. The **Reset password** window is displayed. 
 
 2. Select **Reset configuration only** and then select **Update**. 
+
+![Reset the RDP configuration in the Azure portal](./media/troubleshoot-rdp-connection/reset-rdp.png)
 
 3. Try connecting to your VM again.
 
